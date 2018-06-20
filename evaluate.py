@@ -67,8 +67,8 @@ def classify(net, in_im, net_name, im_list, gt_labels, batch_size, adv_image, de
         print(pert.shape[1])
         raise Exception("Invalid size of input perturbation")
     config = tf.ConfigProto(gpu_options=tf.GPUOptions(allow_growth=True))
-    imgs = open(im_list).readlines()[::10]
-    gt_labels = open(gt_labels).readlines()[::10]
+    imgs = open(im_list).readlines()#[::10]
+    gt_labels = open(gt_labels).readlines()#[::10]
     fool_rate = 0
     top_1 = 0
     top_1_real = 0
