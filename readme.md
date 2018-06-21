@@ -4,6 +4,11 @@ A repository containing evaluation of various universal adversarial perturbation
 
 UAPs are quite a big threat to anyone using deep learning, be it muggles or wizards. They are indeed the perfect curse that someone might use against your Deep model. In this repository we evaluated some of the recent defence techniques for various UAPs. 
 
+<p align="center">
+  <img width="460" src="table.png">
+</p>
+![table](table.png)
+
 ## The Attacks
 The following 3 Universal Adversarial attacks were evaluated:
 
@@ -73,7 +78,7 @@ python index_patches.py
 
 * Finish Quilting
 * Add the perturbations from NAG and UAP
-* Add results from paper.
+* ~~Add results from paper.~~
 
 
 
